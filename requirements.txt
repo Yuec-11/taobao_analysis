@@ -1,0 +1,21 @@
+# ============================================
+# 淘宝用户行为数据分析 - 依赖清单
+# ============================================
+# 安装方法: pip install -r requirements.txt
+
+# 数据处理
+pandas>=1.3.0
+numpy>=1.21.0
+
+# Parquet 存储加速
+fastparquet>=0.8.0
+
+# 可视化
+matplotlib>=3.4.0
+
+# Excel 报表
+openpyxl>=3.0.0
+xlsxwriter>=3.0.0
+
+# SQL 分析
+sqlite3  # Python 标准库，无需安装

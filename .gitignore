@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Project data
+data/raw/*.csv
+data/raw/*.gz
+data/raw/*.zip
+
+# Output (auto-generated)
+output/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Packaging
+*.tar.gz
+*.zip
+!taobao_analysis/output/  # Don't un-exclude, keep output/ ignored
